@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <div id="mydiv" class="modalparent">
+        <div class="modal">
+            <div class="headline">MA new version is available</div> 
+            <div class="subtitle">performance and stability improvements</div>
+            <button onclick="myFunction()">download</button>
+        </div>
+    </div>
+    <header>
+        <div class="logo">logo</div>
+        <div class="search">search</div>
+        <div class="profile">profile</div></div>
+    </header>
+    <div class="main">
+        <div class="left">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>    
+        <div class="right">right</div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("mydiv");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+
+    </div>
+</body>
+</html>

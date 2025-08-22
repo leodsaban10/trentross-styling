@@ -51,9 +51,10 @@ nav {
 .modal {
     background-color: #ffffff;
     padding: 10px;
-    border-radius: 15px;
     text-align: center;
-    
+    align-items: center;
+    justify-content: center;
+    height: 300px;
 }
 button {
     color: white;
